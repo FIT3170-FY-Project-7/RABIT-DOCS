@@ -12,3 +12,5 @@ This repository contains the source code (and output pages) for RABIT user docum
 ## Deploying to prod
 
 Just create a pull request. Once merged, it will be built and deployed automatically to github pages.
+
+**You should NOT merge anything to the `gh-pages` branch.**

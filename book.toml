@@ -5,5 +5,10 @@ multilingual = false
 src = "src"
 title = "RABIT User Documentation"
 
+[output.html]
+# TODO: edit the url once repo is transferred to rabit org
+git-repository-url = "https://github.com/megascrapper/rabit-user-docs"
+git-repository-icon = "fa-github"
+
 [output.html.playground]
 editable = true
