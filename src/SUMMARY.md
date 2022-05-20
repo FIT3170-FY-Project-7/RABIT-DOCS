@@ -15,5 +15,5 @@
 
 # Developer Documentation
 
-- [Running your own RABIT instance]()
+- [Running your own RABIT instance](./dev-guide/running-your-own-instance.md)
 - [Contributing to RABIT]()
