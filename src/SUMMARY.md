@@ -7,9 +7,8 @@
 
 # User Documentation
 
-- [Creating an account]()
-- [Uploading data]()
-- [Viewing data]()
+- [Creating a plot](./user-guide/create-plot.md)
+- [Viewing a plot]()
 - [API]()
 
 
