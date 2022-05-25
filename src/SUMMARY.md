@@ -9,10 +9,17 @@
 
 - [Creating a plot](./user-guide/create-plot.md)
 - [Viewing a plot]()
-- [API]()
 
+
+# Administrator Documentation
+
+- [Running your own RABIT instance](./admin-guide/running-your-own-instance.md)
+    - [Docker](./admin-guide/docker.md)
+    - [Manual installation](./admin-guide/manual-install.md)
+    - [Serving frontend with Nginx](./admin-guide/nginx.md)
 
 # Developer Documentation
 
-- [Running your own RABIT instance](./dev-guide/running-your-own-instance.md)
+- [API](./dev-guide/api.md)
+- [Language bindings]()
 - [Contributing to RABIT]()
