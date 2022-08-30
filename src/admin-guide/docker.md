@@ -81,7 +81,7 @@ docker-compose down
 
 Remove the container and delete all data:
 
-> **⚠️ WARNING**
+> ⚠️ **WARNING**
 > <br>
 > **this will delete all plots, accounts and everything else stored in the database. This operation is
 > irreversible.**
