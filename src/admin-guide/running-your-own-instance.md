@@ -4,7 +4,7 @@
 
 There are several reasons why you would want to run your own instance instead of using [our public one](https://rabit2022.cloud.edu.au/):
 
-- Some organisations may restrict data from going outside their network for security and confidentiality reasons. 
+- Some organisations may restrict data from going outside their network for security and confidentiality reasons.
 Deploying your own RABIT instance ensures you have full control on where and how the data is transmitted and stored.
 - You have a limited internet bandwidth but good local network bandwidth.
 - You are developing RABIT itself and want to test your improvements. One does not simply test in production, right?
@@ -12,5 +12,9 @@ Deploying your own RABIT instance ensures you have full control on where and how
 ## Deployment instructions
 
 We offer various ways of deployment:
-- [Docker](docker.md)
-- [Manual install](manual-install.md)
+
+- Docker
+- Manual install
+
+Follow the instructions in the [first steps](./first-steps.md) page, then go to either [Docker](./docker.md) or
+[manual install](./manual-install.md) pages, depending on your deployment method.

@@ -1,39 +1,70 @@
 # Deployment with Docker
 
+## Before you begin
+
+Make sure you completed all steps in the [first steps](./first-steps.md) page.
+
 ## Requirements
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
+## Set up environment variables
+
+In `RABIT-BACKEND`, copy `.env.example` file to `.env`
+
+```
+cp .env.example
+```
+
+Then fill out the database environment variables as follows:
+
+```shell
+DB_HOST=db
+DB_USER=root
+DB_PASSWORD=replace-this
+DB_NAME=rabit
+```
+
+For Firebase variables, go to your project settings and scroll down to the app you just registered. Then fill out the
+variables as follows:
+
+```shell
+FIREBASE_API_KEY="" # firebaseConfig.apiKey
+FIREBASE_AUTH_DOMAIN="" # firebaseConfig.authDomain
+FIREBASE_PROJECT_ID="" # firebaseConfig.projectId
+FIREBASE_STORAGE_BUCKET="" # firebaseConfig.storageBucket
+FIREBASE_MESSAGING_SENDER_ID="" # firebaseConfig.messagingSenderId
+FIREBASE_APP_ID="" # firebaseConfig.appId
+```
+
+Any variables not listed above should not be changed, unless you understand the ramifications and how to deal with any
+issue that may arise.
+
 ## Installation
 
-1. Clone the repository. We use git submodules so make sure you also cloned all submodules:
-```
-$ https://github.com/FIT3170-FY-Project-7/RABIT-COMMON
-```
-2. Build and run the container. This may take a while.
-```
-$ docker-compose up -d
-```
-3. Visit http://localhost:8080 (frontend) and http://localhost:8000 (backend) to check that the container is properly
-deployed.
+In the `RABIT-COMMON` directory, run:
 
-## Update 
-````
-$ git pull --recurse-submodules
-$ docker-compose up -d --build --force-recreate
-$ docker image prune -f
-````
-
-## Uninstall
-Remove the container without deleting database data:
 ```
-$ docker-compose down
+docker-compose up --build
 ```
 
-Remove the container and delete all data:
+The app will be running at <http://localhost:8080/>
 
-**WARNING: this will delete all plots, accounts and everything else stored in the database. This operation is irreversible.**
+In case of `npm` error, you may need to return to `RABIT-FRONTEND` and/or `RABIT-BACKEND` and run:
+
 ```
-$ docker-compose down -v
+rm package-lock.json
+rm -rf node_modules
+npm install
 ```
+
+Afterwards, return to `RABIT-COMMON` and re-run `docker-compose up --build`
+
+When you are making changes to the code, stop the containers and run
+
+```
+docker-compose up --build --force-recreate
+```
+
+Doing this will force rebuild and recreate the docker containers.
