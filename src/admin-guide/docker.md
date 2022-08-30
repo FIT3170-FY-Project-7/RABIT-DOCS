@@ -61,6 +61,8 @@ npm install
 
 Afterwards, return to `RABIT-COMMON` and re-run `docker-compose up --build`
 
+## Update
+
 When you are making changes to the code, stop the containers and run
 
 ```
@@ -68,3 +70,25 @@ docker-compose up --build --force-recreate
 ```
 
 Doing this will force rebuild and recreate the docker containers.
+
+## Uninstall
+
+Remove the container without deleting database data:
+
+```
+docker-compose down
+```
+
+Remove the container and delete all data:
+
+> **⚠️ WARNING**
+> <br>
+> **this will delete all plots, accounts and everything else stored in the database. This operation is
+> irreversible.**
+> <br>
+> This does NOT delete any user data in Firebase. Ensure that you deal with this appropriately to avoid any data
+> synchronisation issue in the future.
+
+```
+sudo rm -rf RABIT-BACKEND/data
+```
