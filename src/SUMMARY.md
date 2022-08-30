@@ -14,12 +14,12 @@
 # Administrator Documentation
 
 - [Running your own RABIT instance](./admin-guide/running-your-own-instance.md)
-    - [Docker](./admin-guide/docker.md)
-    - [Manual installation](./admin-guide/manual-install.md)
-    - [Serving frontend with Nginx](./admin-guide/nginx.md)
+  - [First steps](./admin-guide/first-steps.md)
+  - [Docker](./admin-guide/docker.md)
+  - [Manual installation](./admin-guide/manual-install.md)
 
 # Developer Documentation
 
-- [API](./dev-guide/api.md)
+- [API]()
 - [Language bindings]()
 - [Contributing to RABIT]()
