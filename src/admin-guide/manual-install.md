@@ -48,6 +48,12 @@ issue that may arise.
 
 Set up the database by running `DB_generation_schema.sql` in `RABIT-BACKEND/database-schemas`.
 
+### Creating a temporary user
+
+This user allows you to upload immediately without having to create an account first.
+
+You can do this by running `create_temp_user.sql` script in `RABIT-BACKEND/database-schemas`.
+
 ### Backend
 
 In `RABIT-BACKEND` directory:
