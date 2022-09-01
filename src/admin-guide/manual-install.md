@@ -22,10 +22,11 @@ cp .env.example
 Then fill out the following variables according to your MySQL configuration:
 
 ```shell
+DATA_PATH= # location of uploaded files
 DB_HOST= # MySQL host
 DB_USER= # MySQL user
 DB_PASSWORD= # MySQL password
-DB_NAME=rabit
+DB_NAME= # database name
 ```
 
 For Firebase variables, go to your project settings and scroll down to the app you just registered. Then fill out the
@@ -43,11 +44,9 @@ FIREBASE_APP_ID="" # firebaseConfig.appId
 Any variables not listed above should not be changed, unless you understand the ramifications and how to deal with any
 issue that may arise.
 
-## Installation
-
 ### Database
 
-<!-- TODO -->
+Set up the database by running `DB_generation_schema.sql` in `RABIT-BACKEND/database-schemas`.
 
 ### Backend
 

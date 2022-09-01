@@ -16,10 +16,10 @@ RABIT is a data visualisation tool leveraging Bayes parameter estimation.
 
 ### Easy to use
 
-### Share your graph
+### Share your graph easily
 
 ### Free and open source
 
-We believe that tools like RABIT should be accessible and extensible by anyone for any purpose. All of the source code is available on [GitHub](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON) under [ISC license](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/LICENSE.md) for you to look and tinker around with. You can [run your own instance](./dev-guide/running-your-own-instance.md) if you really want to!
+We believe that tools like RABIT should be accessible and extensible by anyone for any purpose. All the source code is available on [GitHub](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON) under [ISC license](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/LICENSE.md) for you to look and tinker around with. You can [run your own instance](./dev-guide/running-your-own-instance.md) if you really want to!
 
 Got any issue, ideas, or even patches you want to share with us? Head over to our [contributing guide](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/CONTRIBUTING.md) to help us improve RABIT.

@@ -20,6 +20,7 @@ cp .env.example
 Then fill out the database environment variables as follows:
 
 ```shell
+DATA_PATH=./data
 DB_HOST=db
 DB_USER=root
 DB_PASSWORD=replace-this
@@ -60,6 +61,23 @@ npm install
 ```
 
 Afterwards, return to `RABIT-COMMON` and re-run `docker-compose up --build`
+
+## Creating a temporary user
+
+This user allows you to upload immediately without having to create an account first.
+
+You can do this by running `create_temp_user.sql` script in `RABIT-BACKEND/database-schemas`.
+
+```
+docker exec -i <container_name> mysql -u root -p<DB_PASSWORD> rabit < database_schemas/create_temp_user.sql
+```
+
+Where `container_name` is the name of the database container. For example, if container name is `rabit-common-db-1` and
+database password is `replace-this`:
+
+```
+docker exec -i rabit-common-db-1 mysql -u root -preplace-this rabit < database_schemas/create_temp_user.sql
+```
 
 ## Update
 
