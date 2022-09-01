@@ -69,14 +69,14 @@ This user allows you to upload immediately without having to create an account f
 You can do this by running `create_temp_user.sql` script in `RABIT-BACKEND/database-schemas`.
 
 ```
-docker exec -i <container_name> mysql -u root -p<DB_PASSWORD> rabit < database_schemas/create_temp_user.sql
+docker exec -i <container_name> mysql -u root -p<DB_PASSWORD> rabit < create_temp_user.sql
 ```
 
 Where `container_name` is the name of the database container. For example, if container name is `rabit-common-db-1` and
 database password is `replace-this`:
 
 ```
-docker exec -i rabit-common-db-1 mysql -u root -preplace-this rabit < database_schemas/create_temp_user.sql
+docker exec -i rabit-common-db-1 mysql -u root -preplace-this rabit < create_temp_user.sql
 ```
 
 ## Update
@@ -108,5 +108,5 @@ Remove the container and delete all data:
 > synchronisation issue in the future.
 
 ```
-sudo rm -rf RABIT-BACKEND/data
+docker-compose down -v
 ```
