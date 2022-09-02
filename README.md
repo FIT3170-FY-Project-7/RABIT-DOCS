@@ -1,9 +1,9 @@
-# rabit-user-docs
+# rabit-docs
 
 [![Build Workflow Status](https://img.shields.io/github/workflow/status/megascrapper/rabit-docs/Deploy)](https://github.com/megascrapper/rabit-docs/actions/workflows/deploy.yml)
 [![GitHub Pages Workflow Status](https://img.shields.io/github/workflow/status/megascrapper/rabit-docs/pages%20build%20and%20deployment?label=github%20pages)](https://github.com/megascrapper/rabit-docs/actions/workflows/pages/pages-build-deployment)
 
-This repository contains the source code (and output pages) for RABIT user documentation.
+This repository contains the source code (and output pages) for RABIT documentation.
 
 ## Editing, building and deploying locally
 
