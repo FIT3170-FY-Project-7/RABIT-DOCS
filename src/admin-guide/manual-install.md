@@ -28,31 +28,16 @@ DB_USER= # MySQL user
 DB_PASSWORD= # MySQL password
 DB_NAME= # database name
 ```
-
-For Firebase variables, go to your project settings and scroll down to the app you just registered. Then fill out the
-variables as follows:
-
-```shell
-FIREBASE_API_KEY="" # firebaseConfig.apiKey
-FIREBASE_AUTH_DOMAIN="" # firebaseConfig.authDomain
-FIREBASE_PROJECT_ID="" # firebaseConfig.projectId
-FIREBASE_STORAGE_BUCKET="" # firebaseConfig.storageBucket
-FIREBASE_MESSAGING_SENDER_ID="" # firebaseConfig.messagingSenderId
-FIREBASE_APP_ID="" # firebaseConfig.appId
-```
+See the [Firebase page](./firebase.md) for more information on setting up Firebase.
 
 Any variables not listed above should not be changed, unless you understand the ramifications and how to deal with any
 issue that may arise.
 
 ### Database
 
-Set up the database by running `DB_generation_schema.sql` in `RABIT-BACKEND/database-schemas`.
+Set up the database by running `DB_generation_schema.sql` in `RABIT-BACKEND/database-schemas`. This script will also
+create a temporary user which will contain all plots and data.
 
-### Creating a temporary user
-
-This user allows you to upload immediately without having to create an account first.
-
-You can do this by running `create_temp_user.sql` script in `RABIT-BACKEND/database-schemas`.
 
 ### Backend
 

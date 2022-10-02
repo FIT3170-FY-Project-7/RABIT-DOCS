@@ -17,6 +17,7 @@
   - [First steps](./admin-guide/first-steps.md)
   - [Docker](./admin-guide/docker.md)
   - [Manual installation](./admin-guide/manual-install.md)
+  - [Firebase](./admin-guide/firebase.md)
 
 # Developer Documentation
 
