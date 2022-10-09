@@ -10,7 +10,6 @@
   <br />
 </h1>
 <span>
-    <img alt="License Badge" src="https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-DOCS?style=flat-square" />
     &nbsp; <a alt="Build Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/Deploy?style=flat-square" /></a>
     &nbsp; <a alt="GitHub Pages Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/pages%20build%20and%20deployment?label=github%20pages&style=flat-square" /></a>
 </span><br><br>
@@ -21,7 +20,7 @@ _This repository contains the source code (and output pages) for RABIT documenta
 
 ## Editing, Building, Local Deployment
   
-1. Install mdbook by following the [installation guide](https://rust-lang.github.io/mdBook/guide/installation.html)
+1. Install mdbook by following the [installation guide](https://rust-lang.github.io/mdBook/guide/installation.html).
 2. To add more pages, create a new .md file in the `src` folder, and add an entry in `SUMMARY.md`. See the [mdbook docs](https://rust-lang.github.io/mdBook/format/summary.html) for the syntax.
 3. To build and see the output locally, run `mdbook serve` and go to http://localhost:3000.
 
