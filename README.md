@@ -10,7 +10,7 @@
   <br />
 </h1>
 <span>
-    <img alt="License Badge" src="https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-DOCS?style=flat-square" />
+    <a href="LICENSE.md"><img alt="License Badge" src="https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-DOCS?label=license&style=flat-square" /></a>
     &nbsp; <a alt="Build Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/Deploy?style=flat-square" /></a>
     &nbsp; <a alt="GitHub Pages Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/pages%20build%20and%20deployment?label=github%20pages&style=flat-square" /></a>
 </span><br><br>
