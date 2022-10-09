@@ -4,13 +4,13 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/24266948/194764100-9283abd4-b312-480a-9c0e-b2dcbcf2c655.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/24266948/194763419-4860ef73-a02f-46f5-8a99-604426b45ecf.svg">
-    <img alt="GitHub Octicons: Book" width="100" align="left" src="[https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png](https://user-images.githubusercontent.com/24266948/194763419-4860ef73-a02f-46f5-8a99-604426b45ecf.svg)">
+    <img alt="GitHub Octicons: Book" width="100" align="left" src="https://user-images.githubusercontent.com/24266948/194763419-4860ef73-a02f-46f5-8a99-604426b45ecf.svg">
   </picture>
   RABIT-DOCS
   <br />
 </h1>
 <span>
-    <img alt = "License Badge" src = "https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-DOCS?style=flat-square" />
+    <img alt="License Badge" src="https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-DOCS?style=flat-square" />
     &nbsp; <a alt="Build Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/Deploy?style=flat-square" /></a>
     &nbsp; <a alt="GitHub Pages Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/pages%20build%20and%20deployment?label=github%20pages&style=flat-square" /></a>
 </span><br><br>
