@@ -35,9 +35,14 @@ issue that may arise.
 
 ### Database
 
-Set up the database by running `DB_generation_schema.sql` in `RABIT-BACKEND/database-schemas`. This script will also
-create a temporary user which will contain all plots and data.
+Run `DB_generation_schema.sql` in `RABIT-BACKEND/database-schemas` to initialise all tables. Then, run
+`create_temp_user.sql` from the same directory to create the temporary user which will be associated with all uploaded
+data.
 
+```
+mysql -u <DB_USER> -p<DB_PASSWORD> <DB_NAME> < DB_generation_schema.sql
+mysql -u <DB_USER> -p<DB_PASSWORD> <DB_NAME> < create_temp_user.sql
+```
 
 ### Backend
 
