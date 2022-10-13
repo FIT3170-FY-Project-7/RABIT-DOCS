@@ -23,13 +23,14 @@ The convention for [RABIT-COMMON](https://github.com/FIT3170-FY-Project-7/RABIT-
 
 1. Decide on where the code should go
    - If your contribution spans both frontend and backend, then you will need to do the next steps for each repository.
-2. Create a new branch from `dev` (frontend and backend) or `main` (common)
-   - If you don't have push access to the repositories, you may need to fork the repository first.
-3. Work on the branch
-4. Create a pull request
+2. Read and understand the build process outlined in the ["Running your own RABIT instance"](/admin-guide/running-your-own-instance.md) page
+3. Create a new branch from `dev` (frontend and backend) or `main` (common)
+   - If you don't have push access to the repositories (which, unless you're a maintainer you likely won't), you may need to fork the repository first.
+4. Work on the branch
+5. Create a pull request
    - Follow the instructions given in the provided template
    - Frontend and backend: make sure to set `dev` as the base branch
-5. Wait until one of our maintainers approved your PR
-6. Your changes should be up in the `dev`/`main` branch! 🥳
+6. Wait until one of our maintainers approved your PR
+7. Your changes should be up in the `dev`/`main` branch! 🥳
 
 ## Coding convention

@@ -20,7 +20,7 @@ _This repository contains the source code (and output pages) for RABIT documenta
 ---
 
 ## Editing, Building, Local Deployment
-  
+
 1. Install mdBook by following the [installation guide](https://rust-lang.github.io/mdBook/guide/installation.html).
 2. To add more pages, create a new .md file in the `src` folder, and add an entry in `SUMMARY.md`. See the [mdBook docs](https://rust-lang.github.io/mdBook/format/summary.html) for the syntax.
 3. To build and see the output locally, run `mdbook serve` and go to http://localhost:3000.
@@ -30,3 +30,5 @@ _This repository contains the source code (and output pages) for RABIT documenta
 - You cannot edit directly in main branch, so you'll need to create a new branch or fork the repo for non-collaborators.
 - When you're ready, just create a pull request. Once merged, it will be built and deployed automatically to github pages.
 - **Note: You should _NOT_ edit or branch from the `gh-pages` branch.**
+
+To learn more about contributing see the [documentation](https://fit3170-fy-project-7.github.io/RABIT-DOCS/dev-guide/contributing-docs.html).
