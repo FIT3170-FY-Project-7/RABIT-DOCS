@@ -27,17 +27,7 @@ DB_PASSWORD=replace-this
 DB_NAME=rabit
 ```
 
-For Firebase variables, go to your project settings and scroll down to the app you just registered. Then fill out the
-variables as follows:
-
-```shell
-FIREBASE_API_KEY="" # firebaseConfig.apiKey
-FIREBASE_AUTH_DOMAIN="" # firebaseConfig.authDomain
-FIREBASE_PROJECT_ID="" # firebaseConfig.projectId
-FIREBASE_STORAGE_BUCKET="" # firebaseConfig.storageBucket
-FIREBASE_MESSAGING_SENDER_ID="" # firebaseConfig.messagingSenderId
-FIREBASE_APP_ID="" # firebaseConfig.appId
-```
+See the [Firebase page](./firebase.md) for more information on setting up Firebase.
 
 Any variables not listed above should not be changed, unless you understand the ramifications and how to deal with any
 issue that may arise.
@@ -61,23 +51,6 @@ npm install
 ```
 
 Afterwards, return to `RABIT-COMMON` and re-run `docker-compose up --build`
-
-## Creating a temporary user
-
-This user allows you to upload immediately without having to create an account first.
-
-You can do this by running `create_temp_user.sql` script in `RABIT-BACKEND/database-schemas`.
-
-```
-docker exec -i <container_name> mysql -u root -p<DB_PASSWORD> rabit < create_temp_user.sql
-```
-
-Where `container_name` is the name of the database container. For example, if container name is `rabit-common-db-1` and
-database password is `replace-this`:
-
-```
-docker exec -i rabit-common-db-1 mysql -u root -preplace-this rabit < create_temp_user.sql
-```
 
 ## Update
 
