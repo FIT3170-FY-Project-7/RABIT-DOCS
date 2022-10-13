@@ -30,7 +30,7 @@ This directory is automatically generated using [mdbook's build commands](https:
 ### Other
 
 - `src/images` contains all images of the site.
-- `src/code` contains all code files that is included in the documentation using the [`{{#include}}` directive](https://rust-lang.github.io/mdBook/format/mdbook.html#including-files). This folder does not exist at the moment, so feel free to create one if you need to.
+- `src/code` contains all code files that is included in the documentation using the [`{{#include}}` directive](https://rust-lang.github.io/mdBook/format/mdbook.html#including-files).
 
 ## Contribution workflow
 
@@ -42,3 +42,9 @@ This directory is automatically generated using [mdbook's build commands](https:
    - Follow the instructions given in the provided template
 5. Wait until one of our maintainers approved your PR and merge it to `main`
 6. The site will be rebuilt, and your changes will be published.
+
+## Things to keep in mind
+
+All contributions will be released under the [ISC license](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/LICENSE.md). Please ensure that any third-party code used is compatible with this license.
+
+When commenting or creating PRs, please follow the [GitHub community guidelines](https://docs.github.com/articles/github-community-guidelines).

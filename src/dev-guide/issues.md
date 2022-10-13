@@ -1,6 +1,6 @@
 # Submitting issues
 
-Did you encounter a bug in RABIT?
+Do you encounter a bug in RABIT?
 
 Or you may have a bright idea for a new feature that will greatly enhance the app?
 
@@ -34,3 +34,9 @@ Select the appropriate issue category (bug report or feature request) then fill 
 If necessary, post a screenshot to help explain your issue more clearly. However, **do not post screenshots of error logs or stack traces**. Screenshots of logs (or images of text in general) makes it unnecessarily difficult for everyone to search the error (as it can't be indexed by GitHub) or select the text. In addition, folks who use assistive technologies (e.g. screen reader) or those with poor connections may struggle to even be able to read the log at all.
 
 When posting an issue, make sure that sensitive or confidential information has been appropriately censored or removed.
+
+## Things to keep in mind
+
+All contributions will be released under the [ISC license](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/LICENSE.md). Please ensure that any third-party code used is compatible with this license.
+
+When commenting or creating issues, please follow the [GitHub community guidelines](https://docs.github.com/articles/github-community-guidelines).

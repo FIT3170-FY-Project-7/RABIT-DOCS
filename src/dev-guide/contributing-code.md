@@ -33,4 +33,8 @@ The convention for [RABIT-COMMON](https://github.com/FIT3170-FY-Project-7/RABIT-
 6. Wait until one of our maintainers approved your PR
 7. Your changes should be up in the `dev`/`main` branch! 🥳
 
-## Coding convention
+## Things to keep in mind
+
+All contributions will be released under the [ISC license](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/LICENSE.md). Please ensure that any third-party code used is compatible with this license.
+
+When commenting or creating PRs, please follow the [GitHub community guidelines](https://docs.github.com/articles/github-community-guidelines).
