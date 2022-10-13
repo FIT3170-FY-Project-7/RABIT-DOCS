@@ -1,5 +1,4 @@
-
-
+<!-- markdownlint-disable -->
 <h1>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/24266948/194764100-9283abd4-b312-480a-9c0e-b2dcbcf2c655.svg">
@@ -11,9 +10,14 @@
 </h1>
 <span>
     <a href="LICENSE.md"><img alt="License Badge" src="https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-DOCS?label=license&style=flat-square" /></a>
-    &nbsp; <a alt="Build Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/Deploy?style=flat-square" /></a>
-    &nbsp; <a alt="GitHub Pages Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/pages%20build%20and%20deployment?label=github%20pages&style=flat-square" /></a>
+    <a alt="Build Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/Deploy?style=flat-square" /></a>
+    <a alt="GitHub Pages Workflow Status" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/FIT3170-FY-Project-7/RABIT-DOCS/pages%20build%20and%20deployment?label=github%20pages&style=flat-square" /></a>
+    <a alt="GitHub pull requests" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-DOCS?style=flat-square" /></a>
+    <a alt="GitHub issues" href="https://github.com/FIT3170-FY-Project-7/RABIT-DOCS/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/FIT3170-FY-Project-7/RABIT-DOCS?style=flat-square"></a>
+
 </span><br><br>
+
+<!-- markdownlint-restore -->
 
 _This repository contains the source code (and output pages) for RABIT documentation._
 
