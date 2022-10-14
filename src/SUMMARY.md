@@ -1,6 +1,8 @@
 <!-- See https://rust-lang.github.io/mdBook/format/summary.html to learn how to structure the TOC. -->
 <!-- Entries that have no links will appear as greyed out on the output. -->
 
+<!-- markdownlint-disable MD042 -->
+
 # Summary
 
 [Introduction](./intro.md)
@@ -9,7 +11,6 @@
 
 - [Creating a plot](./user-guide/create-plot.md)
 - [Viewing a plot]()
-
 
 # Administrator Documentation
 
@@ -21,6 +22,8 @@
 
 # Developer Documentation
 
-- [API]()
-- [Language bindings]()
-- [Contributing to RABIT]()
+- [RABIT architecture and structure](./dev-guide/architecture.md)
+- [Contributing to RABIT](./dev-guide/contributing.md)
+  - [Submitting issues](./dev-guide/issues.md)
+  - [Contributing code](./dev-guide/contributing-code.md)
+  - [Contributing documentation](./dev-guide/contributing-docs.md)

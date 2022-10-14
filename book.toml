@@ -6,10 +6,9 @@ src = "src"
 title = "RABIT Documentation"
 
 [output.html]
+git-repository-url = "https://github.com/FIT3170-FY-Project-7/RABIT-DOCS"
 # Fixes an issue in github pages where the 404 page doesn't load the css and all links are invalid
 site-url = "/RABIT-DOCS/"
-# TODO: edit the url once repo is transferred to rabit org
-git-repository-url = "https://github.com/megascrapper/rabit-docs"
 git-repository-icon = "fa-github"
 
 [output.html.playground]
