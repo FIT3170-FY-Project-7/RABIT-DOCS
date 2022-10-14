@@ -1,4 +1,4 @@
-# Manual installation
+# Manual installation (development)
 
 ## Before you begin
 
