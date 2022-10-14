@@ -17,5 +17,7 @@ If you are developing RABIT, switch to `dev` in `RABIT-FRONTEND` and `RABIT-BACK
 
 ## Next steps
 
-Proceed to either [Docker](./docker.md) or [manual install](./manual-install.md) pages, depending on your deployment
-method.
+Proceed to the following pages, depending on your deployment method:
+
+- [Docker](./docker.md)
+- Manual install ([production](./manual-install-prod.md)) ([development](./manual-install-dev.md))
