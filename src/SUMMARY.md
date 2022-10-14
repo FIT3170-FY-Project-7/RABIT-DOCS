@@ -17,6 +17,7 @@
 - [Running your own RABIT instance](./admin-guide/running-your-own-instance.md)
   - [First steps](./admin-guide/first-steps.md)
   - [Docker](./admin-guide/docker.md)
+  - [Manual installation (production)](./admin-guide/manual-install-prod.md)
   - [Manual installation (development)](./admin-guide/manual-install-dev.md)
   - [Firebase](./admin-guide/firebase.md)
 
