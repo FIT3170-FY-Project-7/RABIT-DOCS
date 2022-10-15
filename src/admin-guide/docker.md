@@ -73,12 +73,10 @@ docker-compose down
 Remove the container and delete all data:
 
 > ⚠️ **WARNING**
-> <br>
-> **this will delete all plots, accounts and everything else stored in the database. This operation is
-> irreversible.**
-> <br>
-> This does NOT delete any user data in Firebase. Ensure that you deal with this appropriately to avoid any data
-> synchronisation issue in the future.
+>
+> This will delete all plots, accounts and everything else stored in the database. **This operation is irreversible.**
+>
+> This does NOT delete any user data in Firebase. Ensure that you deal with this appropriately to avoid any data synchronisation issue in the future.
 
 ```
 docker-compose down -v

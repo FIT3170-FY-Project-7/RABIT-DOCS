@@ -1,0 +1,19 @@
+server {
+    listen 80;
+    location / {
+        root /var/www/rabit;
+        index index.html index.htm;
+        try_files $uri $uri/ /index.html;
+
+        # Compression
+        gzip on;
+        gzip_static on;
+        gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+        gzip_comp_level 9;
+
+        # Security headers
+	    add_header X-Frame-Options SAMEORIGIN always;
+	    add_header Content-Security-Policy "object-src 'none'; child-src 'self'; frame-ancestors 'none';" always;
+	    add_header X-Content-Type-Options nosniff always;
+    }
+}

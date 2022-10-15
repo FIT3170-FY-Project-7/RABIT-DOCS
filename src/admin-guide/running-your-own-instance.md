@@ -13,8 +13,7 @@ Deploying your own RABIT instance ensures you have full control on where and how
 
 We offer various ways of deployment:
 
-- Docker
-- Manual install
+- [Docker](./docker.md)
+- Manual install ([production](./manual-install-prod.md)) ([development](./manual-install-dev.md))
 
-Follow the instructions in the [first steps](./first-steps.md) page, then go to either [Docker](./docker.md) or
-[manual install](./manual-install.md) pages, depending on your deployment method.
+Follow the instructions in the [first steps](./first-steps.md) page, then go to one of the above pages depending on your deployment method.
