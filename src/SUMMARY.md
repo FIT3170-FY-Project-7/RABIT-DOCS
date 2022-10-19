@@ -11,6 +11,7 @@
 
 - [Creating a plot](./user-guide/create-plot.md)
 - [Viewing a plot]()
+- [Posterior LaTeX labels](./user-guide/posterior-latex.md)
 
 # Administrator Documentation
 
