@@ -4,7 +4,7 @@
 
 ## What is RABIT?
 
-RABIT is a data visualisation tool leveraging Bayes parameter estimation.
+RABIT is a data visualisation tool leveraging Bayesian Parameter Estimation in the context of Gravitational Wave Astrophysics.
 
 > ### RABIT is a work in progress
 >
