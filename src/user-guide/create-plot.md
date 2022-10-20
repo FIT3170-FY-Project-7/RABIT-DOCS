@@ -53,4 +53,4 @@ The accepted file format can be viewed by clicking the small question mark widge
 Once the above fields are completed the plot can be created by clicking the upload
 button.
 
-![App Screenshot](../images/create-plot/uploading.mp4)
+![App Video](../images/create-plot/uploading.gif)

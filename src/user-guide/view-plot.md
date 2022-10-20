@@ -18,7 +18,7 @@ Navigate to 'Explore' from the sidebar, or go directly to the '/plots' URL.
 
 Select which plot to view from the plots list
 
-![App Screenshot](../images/view-plot/openplot.mp4)
+![App Screenshot](../images/view-plot/openplot.gif)
 
 
 
@@ -26,7 +26,7 @@ Select which plot to view from the plots list
 
 From each class of parameter that was uploaded, select the specific parameters to plot
 
-![App Screenshot](../images/view-plot/selectparameters.mp4)
+![App Screenshot](../images/view-plot/selectparameters.gif)
 
 
 
@@ -34,7 +34,7 @@ From each class of parameter that was uploaded, select the specific parameters t
 
 Plot colours can be modified by selecting the colour box. Use contrasting colours for multi-set plots to enhance readability.
 
-![App Screenshot](../images/view-plot/colour.mp4)
+![App Screenshot](../images/view-plot/colour.gif)
 
 
 
@@ -42,14 +42,14 @@ Plot colours can be modified by selecting the colour box. Use contrasting colour
 
 Change the order of the plots using the arrow button. Lower order datasets will be displayed on top of higher order datasets.
 
-![App Screenshot](../images/view-plot/reorder.mp4)
+![App Screenshot](../images/view-plot/reorder.gif)
 
 
 ## 6. Adjust plot sigma value
 
 The plot sigma represents the number of deviations from the mean. Increasing this value will increase the spread of the plot. This value is set to 3 by default.
 
-![App Screenshot](../images/view-plot/sigma.mp4)
+![App Screenshot](../images/view-plot/sigma.gif)
 
 
 
@@ -57,7 +57,7 @@ The plot sigma represents the number of deviations from the mean. Increasing thi
 
 The blur radius can be increased to filter noise from the data. This value is set to 1.0 by default.
 
-![App Screenshot](../images/view-plot/blur.mp4)
+![App Screenshot](../images/view-plot/blur.gif)
 
 
 
