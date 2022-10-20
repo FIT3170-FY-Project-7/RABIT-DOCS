@@ -1,4 +1,5 @@
 <!-- See https://rust-lang.github.io/mdBook/format/summary.html to learn how to structure the TOC. -->
+
 <!-- Entries that have no links will appear as greyed out on the output. -->
 
 <!-- markdownlint-disable MD042 -->
@@ -10,7 +11,7 @@
 # User Documentation
 
 - [Creating a plot](./user-guide/create-plot.md)
-- [Viewing a plot]()
+- [Viewing a plot](./user-guide/view-plot.md)
 - [Posterior LaTeX labels](./user-guide/posterior-latex.md)
 
 # Administrator Documentation
