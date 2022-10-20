@@ -2,8 +2,12 @@
 
 ## Overview
 
-## Frontend
+This section aims to describe the architecture of the whole project and will be split into 4 subsections to do so. The first subsection will cover the overall system architecture which will explain how the frontend, backend and database communicate with each other. The remaining 3 subsections will go in depth on the structure and architecture of each of the components.
 
-## Backend
 
-## Database
+**Table of Contents:**
+
+* [System](./system-architecture.md)
+* [Frontend]()
+* [Backend](./backend-architecture.md)
+* [Database](./database-architecture.md)

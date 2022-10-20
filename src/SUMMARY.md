@@ -1,4 +1,5 @@
 <!-- See https://rust-lang.github.io/mdBook/format/summary.html to learn how to structure the TOC. -->
+
 <!-- Entries that have no links will appear as greyed out on the output. -->
 
 <!-- markdownlint-disable MD042 -->
@@ -25,6 +26,10 @@
 # Developer Documentation
 
 - [RABIT architecture and structure](./dev-guide/architecture.md)
+  * [System](./system-architecture.md)
+  * [Frontend]()
+  * [Backend](./backend-architecture.md)
+  * [Database](./database-architecture.md)
 - [Contributing to RABIT](./dev-guide/contributing.md)
   - [Submitting issues](./dev-guide/issues.md)
   - [Contributing code](./dev-guide/contributing-code.md)
