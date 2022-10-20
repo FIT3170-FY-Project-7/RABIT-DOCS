@@ -27,7 +27,6 @@
 
 - [RABIT architecture and structure](./dev-guide/architecture.md)
   * [System](./dev-guide/system-architecture.md)
-  * [Frontend]()
   * [Backend](./dev-guide/backend-architecture.md)
   * [Database](./dev-guide/database-architecture.md)
 - [Contributing to RABIT](./dev-guide/contributing.md)
