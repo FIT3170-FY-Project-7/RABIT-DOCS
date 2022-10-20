@@ -8,9 +8,9 @@ One of RABIT's premier features is the creation of Bayesian inference plots.
 
 ## 1. Navigate to the upload page
 
-Navigate via the sidebar or go directly to the '/upload' URL. On the upload page, users will be able to create a plot by filling out the mandatory fields.
+Navigate via the sidebar or go directly to the `/upload` URL. On the upload page, users will be able to create a plot by filling out the mandatory fields.
 
-![App Screenshot](../images/create-plot/navigation.png)
+![App Screenshot](../images/create-plot/navigation.PNG)
 
 
 
@@ -18,7 +18,7 @@ Navigate via the sidebar or go directly to the '/upload' URL. On the upload page
 
 A title for the plot must be added. An optional description can also be created.
 
-![App Screenshot](../images/create-plot/title.png)
+![App Screenshot](../images/create-plot/title.PNG)
 
 
 
@@ -26,11 +26,11 @@ A title for the plot must be added. An optional description can also be created.
 
 At least one class of parameters must be selected for upload. The current parameter options are 'intrinsic', 'extrinsic' and 'other'. To upload all three of these parameter classes, a user can select 'all'.
 
-![App Screenshot](../images/create-plot/parameters.png)
+![App Screenshot](../images/create-plot/parameters.PNG)
 
 Specific parameters can be viewed by clicking the small question mark widget
 
-![App Screenshot](../images/create-plot/parameterwidget.png)
+![App Screenshot](../images/create-plot/parameterwidget.PNG)
 
 
 
@@ -40,11 +40,11 @@ Drag and drop or select a data file from its desktop directory.
 
 The system currently supports a maximum of four files. All data must be in the accepted JSON file format.
 
-![App Screenshot](../images/create-plot/uploadfile.png)
+![App Screenshot](../images/create-plot/uploadfile.PNG)
 
 The accepted file format can be viewed by clicking the small question mark widget
 
-![App Screenshot](../images/create-plot/uploadwidget.png)
+![App Screenshot](../images/create-plot/uploadwidget.PNG)
 
 
 

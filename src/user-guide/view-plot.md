@@ -8,9 +8,9 @@ One of RABIT's premier features is viewing Bayesian inference plots. For a plot 
 
 ## 1. Navigate to the plots page
 
-Navigate to 'Explore' from the sidebar, or go directly to the '/plots' URL.
+Navigate to 'Explore' from the sidebar, or go directly to the `/plots` URL.
 
-![App Screenshot](../images/view-plot/navigation.png)
+![App Screenshot](../images/view-plot/navigation.PNG)
 
 
 
@@ -64,11 +64,11 @@ The blur radius can be increased to filter noise from the data. This value is se
 ## 8. Save plot as an image
 Plots can be saved locally in PNG or SVG format.
 
-![App Screenshot](../images/view-plot/download.png)
+![App Screenshot](../images/view-plot/download.PNG)
 
 
 
 ## 9. Generate a shareable URL for the plot
 Create a shareable link for a plot. From the viewers perspective, the shared plot cannot be modified, but can be downloaded.
 
-![App Screenshot](../images/view-plot/link.png)
+![App Screenshot](../images/view-plot/link.PNG)
