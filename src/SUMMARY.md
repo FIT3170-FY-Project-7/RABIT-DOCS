@@ -26,6 +26,9 @@
 # Developer Documentation
 
 - [RABIT architecture and structure](./dev-guide/architecture.md)
+  * [System](./dev-guide/system-architecture.md)
+  * [Backend](./dev-guide/backend-architecture.md)
+  * [Database](./dev-guide/database-architecture.md)
 - [Contributing to RABIT](./dev-guide/contributing.md)
   - [Submitting issues](./dev-guide/issues.md)
   - [Contributing code](./dev-guide/contributing-code.md)
